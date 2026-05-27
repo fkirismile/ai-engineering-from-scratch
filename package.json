@@ -1,0 +1,25 @@
+{
+  "name": "ai-engineering-from-scratch",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"assets/banner.svg\" alt=\"AI Engineering from Scratch — reference manual banner\" width=\"100%\"> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitg00/ai-engineering-from-scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues"
+  },
+  "homepage": "https://github.com/rohitg00/ai-engineering-from-scratch#readme",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}
