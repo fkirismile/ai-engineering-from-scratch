@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv python *)",
+      "Bash(pip3 list *)",
+      "Bash(.venv/bin/python --version)",
+      "Bash(.venv/bin/pip list *)",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(pnpm --version)",
+      "Bash(rustc --version)",
+      "Bash(cargo --version)",
+      "Bash(git --version)",
+      "Bash(npm install *)",
+      "Bash(brew install *)",
+      "Bash(curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs)",
+      "Bash(sh -s -- -y)",
+      "Bash(curl -fsSL https://install.julialang.org)",
+      "Bash(sh)",
+      "Bash(rm /Users/Zhuanz/.julia/juliaup/juliaup.json 2>&1 && curl -fsSL https://install.julialang.org | sh -s -- -y 2>&1)",
+      "Bash(rm -rf /Users/Zhuanz/.juliaup /Users/Zhuanz/.julia 2>&1 && curl -fsSL https://install.julialang.org | sh -s -- -y 2>&1)",
+      "Bash(PATH=__TRACKED_VAR__/.juliaup/bin:__TRACKED_VAR__ julia -e 'println\\(\"Julia \", VERSION\\)')",
+      "Bash(curl --version)",
+      "Bash(uv --version)",
+      "Bash(uv pip *)",
+      "Bash(npx tsx *)",
+      "Bash(npx tsc *)",
+      "Bash(npx -y typescript --version)",
+      "Bash(npx -y tsc --noEmit --strict --target es2022 --module nodenext phases/00-setup-and-tooling/01-dev-environment/code/verify.ts)",
+      "Bash(npx -p typescript tsc --noEmit --strict --target es2022 --module nodenext phases/00-setup-and-tooling/01-dev-environment/code/verify.ts)",
+      "Bash(npm init *)",
+      "Bash(python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py)",
+      "Bash(.venv/bin/python phases/00-setup-and-tooling/01-dev-environment/code/verify.py)",
+      "Bash(PATH=__TRACKED_VAR__/.cargo/bin:__TRACKED_VAR__ .venv/bin/python phases/00-setup-and-tooling/01-dev-environment/code/verify.py)"
+    ],
+    "additionalDirectories": [
+      "/Users/Zhuanz/.julia/juliaup",
+      "/Users/Zhuanz/.juliaup"
+    ]
+  }
+}
